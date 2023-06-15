@@ -34,7 +34,16 @@ beforeEach(function () {
     return newCats = [`arnold`, ...cats]
   }
 
-  
+  //code to remove last cat without changing original array
+  function removeLastCat(cats) {
+    return newCats = cats.pop()
+  }
+
+  //code to remove first cat without altering original array
+  function removeFirstCat(cats) {
+    return newCats = cats.shift()
+  }
+
 
 
 
