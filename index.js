@@ -10,5 +10,14 @@ beforeEach(function () {
   }  
 
   //code to add  bob to beginning of cats array
-  function prependCat(cat) 
+  function prependCat(cats) {
+    return cats.unshift(`bob`)
+  }
+
+  //code to remove last cat name 
+  function destructivelyRemoveLastCat(cats) {
+    return cats.slice(-1)
+  }
+
+  
   
