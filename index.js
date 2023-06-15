@@ -16,8 +16,14 @@ beforeEach(function () {
 
   //code to remove last cat name 
   function destructivelyRemoveLastCat(cats) {
-    return cats.slice(-1)
+    return cats.splice(-1)
   }
+
+  //code to remove first cat 
+  function destructivelyRemoveFirstCat(cats) {
+    return cats.splice(0,1)
+
+}
 
   
   
