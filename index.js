@@ -21,9 +21,22 @@ beforeEach(function () {
 
   //code to remove first cat 
   function destructivelyRemoveFirstCat(cats) {
-    return cats.splice(0,1)
+    return cats.splice(0,1)  
+  }
+//code to add cat to a new array without changing old
+  let newCats
+  function appendCat(cats) {
+    return newCats=[...cats, `broom`]
+  }
 
-}
+  //code to prepend cat to a new array without changing old
+  function prependCat(cats) {
+    return newCats = [`arnold`, ...cats]
+  }
+
+  
+
+
 
   
   
